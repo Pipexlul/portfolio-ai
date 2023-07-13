@@ -6,6 +6,9 @@
     "email": "felipgg@gmail.com",
     "url": "https://github.com/pipexlul"
   },
+  "scripts": {
+    "commit": "commit"
+  },
   "license": "MIT",
   "private": true,
   "workspaces": [
@@ -14,6 +17,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.6.6",
     "@commitlint/config-conventional": "^17.6.6",
-    "@commitlint/prompt-cli": "^17.6.6"
+    "@commitlint/prompt-cli": "^17.6.6",
+    "husky": "^8.0.3"
   }
 }
