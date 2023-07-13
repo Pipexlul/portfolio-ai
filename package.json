@@ -1,9 +1,6 @@
 {
   "name": "portfolio-ai",
   "version": "1.0.0",
-  "scripts": {
-    "postinstall": "preconstruct dev"
-  },
   "author": {
     "name": "Felipe Guajardo",
     "email": "felipgg@gmail.com",
