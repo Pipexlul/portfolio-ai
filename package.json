@@ -2,7 +2,7 @@
   "name": "portfolio-ai",
   "version": "1.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "preconstruct dev"
   },
   "author": {
     "name": "Felipe Guajardo",
@@ -13,8 +13,5 @@
   "private": true,
   "workspaces": [
     "packages/*"
-  ],
-  "dependencies": {
-    "@preconstruct/cli": "^2.8.1"
-  }
+  ]
 }
