@@ -10,5 +10,11 @@
     "url": "https://github.com/pipexlul"
   },
   "license": "MIT",
-  "private": true
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "@preconstruct/cli": "^2.8.1"
+  }
 }
